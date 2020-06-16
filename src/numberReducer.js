@@ -5,6 +5,7 @@ const numberReducer = (state, action) => {
         return state +action.val;
       case 'DECREAMENT':
         return state +action.val;
+      default:
       
     }
   }
