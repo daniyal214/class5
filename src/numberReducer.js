@@ -1,9 +1,9 @@
 
 const numberReducer = (state, action) => {
     switch (action.type) {
-      default-case 'INCREAMENT':
+      case 'INCREAMENT':
         return state +action.val
-      default-case 'DECREAMENT':
+      case 'DECREAMENT':
         return state +action.val
       
     }
