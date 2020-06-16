@@ -1,8 +1,8 @@
-import React, { useState, useReducer } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Parent from './Parent';
 import ValueContext from './ValueContext';
-import numberReducer from './numberReducer';
+//import numberReducer from './numberReducer';
 
 
   
